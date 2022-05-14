@@ -1,6 +1,6 @@
 ﻿// Найти расстояние между точками в пространстве 2D/3D
 Console.Clear();
-void GetCoordinates (int[] coordinates) // Метод заполения координат для точки
+void GetCoordinates (int[] coordinates) // Метод заполнения координат для точки
 {
     Console.Write("Введите координату x: ");
     coordinates[0] = int.Parse(Console.ReadLine());
